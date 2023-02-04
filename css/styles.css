@@ -1,0 +1,136 @@
+:root {
+  --color-secondary: #ffffff;
+  --color-main: #2e2f42;
+  --color-reserve: #4d5ae5;
+}
+body {
+  font-family: "roboto";
+  width: 400;
+}
+.word-web {
+  color: var(--color-reserve);
+  font-family: "Raleway";
+  font-weight: 800;
+  line-height: 1.33;
+}
+.navigation {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  list-style-type: none;
+  text-decoration: none;
+  color: var(--color-main);
+}
+.word-studio {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.33;
+  text-decoration: none;
+  color: var(--color-main);
+}
+.contacts {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-main);
+}
+.main-section {
+  background-color: var(--color-main);
+}
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--color-secondary);
+}
+button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--color-reserve);
+  color: var(--color-secondary);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.58;
+}
+
+.strategy-list {
+  text-decoration: none;
+  list-style-type: none;
+}
+.what-are-we-doing {
+  list-style-type: none;
+}
+.our-names {
+  background-color: #f4f4fd;
+}
+.photo-list {
+  list-style-type: none;
+}
+.photos-developers {
+  background-color: var(--color-secondary);
+}
+footer {
+  background-color: var(--color-main);
+}
+.footer-text {
+  color: var(--color-secondary);
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.word-studio-footer {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+.buttons {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f4f4fd;
+  color: var(--color-reserve);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttons:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: var(--color-reserve);
+  color: var(--color-secondary);
+  border-radius: 4px;
+  cursor: pointer;
+}
