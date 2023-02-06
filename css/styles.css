@@ -2,6 +2,7 @@
   --color-secondary: #ffffff;
   --color-main: #2e2f42;
   --color-reserve: #4d5ae5;
+  --color-for-words: #434455;
 }
 body {
   font-family: "roboto";
@@ -17,7 +18,14 @@ body {
   text-decoration: none;
   color: var(--color-main);
 }
+.navigation:hover,
+.navigation:focus,
+.contacts:hover,
+.contacts:focus {
+  color: #404bbf;
+}
 .word-studio {
+  font-family: "Raleway";
   font-weight: 800;
   line-height: 1.33;
   text-decoration: none;
@@ -51,14 +59,24 @@ button {
   cursor: pointer;
   border-color: var(--color-reserve);
 }
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
 
 .list-of-features {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  color: var(--color-main);
+}
+.promo {
+  color: var(--color-for-words);
+}
+.list-promo {
+  list-style-type: none;
 }
 p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 0.58;
 }
@@ -108,7 +126,8 @@ footer {
   cursor: pointer;
   border-color: #e7e9fc;
 }
-.buttons:hover {
+.buttons:hover,
+.buttons:focus {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -116,4 +135,8 @@ footer {
   color: var(--color-secondary);
   border-radius: 4px;
   cursor: pointer;
+}
+a {
+  list-style-type: none;
+  text-decoration: none;
 }
