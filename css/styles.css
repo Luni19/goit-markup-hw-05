@@ -6,6 +6,7 @@
 }
 body {
   font-family: "roboto";
+  margin: 0px;
 }
 .word-web {
   color: var(--color-reserve);
@@ -57,14 +58,23 @@ body {
   display: flex;
   gap: 40px;
 }
+.contacts-address:last-child {
+  padding-right: 156px;
+}
 .main-section {
   background-color: var(--color-main);
+  margin: 0px;
+}
+.main-conteiner {
+  text-align: center;
 }
 .main-text {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: var(--color-secondary);
+  max-width: 496px;
+  padding-top: 188px;
 }
 button {
   font-weight: 500;
