@@ -32,7 +32,6 @@ body {
   gap: 40px;
 }
 .header-nav {
-  
 }
 .navigation:hover,
 .navigation:focus,
@@ -78,7 +77,6 @@ body {
   width: 507px;
   margin: 0 auto 48px;
   padding-top: 188px;
-  
 }
 button {
   font-weight: 500;
@@ -91,7 +89,7 @@ button {
   border-color: var(--color-reserve);
   flex-direction: row;
   align-items: flex-start;
-  padding: 16px 32px ;
+  padding: 16px 32px;
   gap: 10px;
 }
 button:hover,
@@ -99,11 +97,9 @@ button:focus {
   background-color: #404bbf;
 }
 
-
 .list-of-features {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   color: var(--color-main);
 }
 .promo {
@@ -114,7 +110,7 @@ button:focus {
 }
 p {
   font-size: 16px;
-  line-height: 0.58;
+  padding-right: 24px;
 }
 
 .strategy-list {
@@ -125,8 +121,20 @@ p {
   padding-left: 156px;
   padding-right: 156;
 }
+.what-doing-ct {
+  display: flex;
+  align-items: center;
+}
+.what-do {
+  text-align: center;
+  padding-top: 159px;
+}
 .what-are-we-doing {
   list-style-type: none;
+  display: flex;
+  gap: 24px;
+  padding-left: 156px;
+  align-items: center;
 }
 .our-names {
   background-color: #f4f4fd;
