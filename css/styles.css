@@ -57,7 +57,9 @@ body {
   line-height: 1.5;
   color: var(--color-main);
   display: flex;
-  gap: 40px;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .contacts-address:last-child {
   padding-right: 156px;
@@ -198,6 +200,9 @@ footer {
 }
 .button-list {
   list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .buttons {
@@ -209,6 +214,7 @@ footer {
   border-radius: 4px;
   cursor: pointer;
   border-color: #e7e9fc;
+  margin-bottom: 85px;
 }
 .buttons:hover,
 .buttons:focus {
