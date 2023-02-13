@@ -24,16 +24,14 @@ body {
   display: flex;
   align-items: center;
 }
-.nav-conteiner {
-}
+
 .navigation {
   display: flex;
   align-items: center;
   flex-grow: 1;
   gap: 40px;
 }
-.header-nav {
-}
+
 .navigation:hover,
 .navigation:focus,
 .contacts:hover,
@@ -144,8 +142,6 @@ p {
   justify-content: center;
 }
 
-.conteiner-what-do {
-}
 .team-text {
   font-weight: 700;
   font-size: 36px;
