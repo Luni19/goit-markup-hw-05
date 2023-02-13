@@ -9,7 +9,12 @@ body {
   margin: 0px;
   display:block;
 }
-
+.main-conteiner{
+  width:1158px;
+  margin:0 auto;
+  padding-left:15px;
+  padding-right:15px;
+}
 .word-web {
   color: var(--color-reserve);
 }
@@ -20,10 +25,13 @@ body {
   list-style-type: none;
   text-decoration: none;
   color: var(--color-main);
+  margin: 0;
 }
 .conteiner-navigation {
   display: flex;
   align-items: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .navigation {
@@ -31,6 +39,7 @@ body {
   align-items: center;
   flex-grow: 1;
   gap: 40px;
+  padding: 0;
 }
 
 .navigation:hover,
@@ -46,6 +55,8 @@ body {
   line-height: 1.33;
   text-decoration: none;
   color: var(--color-main);
+  margin-right: 36px;
+ 
 }
 .conteiner {
   width: 1158px;
@@ -64,7 +75,8 @@ body {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center;  
+  margin: 0;
 }
 .contacts-address:last-child {
   padding-right: 156px;
@@ -257,3 +269,7 @@ a {
   list-style-type: none;
   text-decoration: none;
 }
+
+
+
+
