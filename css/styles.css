@@ -163,6 +163,7 @@ p {
   display: flex;  
   gap: 24px;
   justify-content: center;
+  margin: 0px;
 }
 .developer-block {
   background-color: #ffffff;
@@ -188,8 +189,8 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  max-width: 264px;
   padding-left: 156px;
+  max-width: 264px;
 }
 .word-studio-footer {
   color: var(--color-secondary);
@@ -206,6 +207,7 @@ footer {
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding-top: 96px;
 }
 
 .buttons {
