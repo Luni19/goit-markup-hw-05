@@ -263,7 +263,7 @@ footer {
   background: #ffffff;
   border: 1px solid #e7e9fc;
   margin-bottom: 48px;
-  flex-basis;
+  flex-basis: calc((100% - 24px) / 3);
 }
 
 a {
