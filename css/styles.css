@@ -261,7 +261,7 @@ footer {
 }
 
 .main-content-conteiner {
-  padding-bottom: 120px;
+  margin-bottom: 120px;
 }
 .name-app {
   font-weight: 500;
@@ -279,8 +279,8 @@ footer {
   border: 0px solid #e7e9fc;
   margin-bottom: 48px;
   flex-basis: calc((100% - 2 * 24px) / 3);
+  text-decoration: none;
 }
-
 a {
   list-style-type: none;
   text-decoration: none;
