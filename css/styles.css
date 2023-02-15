@@ -13,6 +13,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 body {
   font-family: "roboto";
   margin: 0px;
@@ -81,7 +84,7 @@ body {
   line-height: 1.5;
   color: var(--color-main);
   display: flex;
-  gap: 24px;
+  gap: 48px 24px;
   flex-wrap: wrap;
   margin: 0;
 }
@@ -128,13 +131,12 @@ button:focus {
   font-weight: 500;
   font-size: 20px;
   color: var(--color-main);
-  padding-bottom: 8px;
-  padding-top: 32px;
+  margin-bottom: 8px;
+  margin-top: 32px;
 }
 .promo {
   color: var(--color-for-words);
   max-width: 256px;
-  margin-bottom: 32px;
 }
 .list-promo {
   list-style-type: none;
@@ -156,10 +158,10 @@ p {
 }
 .what-do {
   text-align: center;
-  padding-top: 159px;
+  margin-top: 159px;
   font-weight: 700;
   font-size: 36px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .what-are-we-doing {
   list-style-type: none;
@@ -193,6 +195,7 @@ p {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   margin-bottom: 120px;
+  padding-bottom: 32px;
 }
 .photos-developers {
   background-color: var(--color-secondary);
@@ -211,7 +214,7 @@ footer {
   font-size: 16px;
   line-height: 1.5;
   max-width: 264px;
-  padding-top: 16px;
+  margin-top: 16px;
 }
 .word-studio-footer {
   color: var(--color-secondary);
@@ -220,7 +223,7 @@ footer {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;;
+  line-height: 21px;
 }
 .button-list {
   list-style-type: none;
@@ -243,6 +246,7 @@ footer {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
+
 .buttons:hover,
 .buttons:focus {
   font-weight: 500;
@@ -252,7 +256,10 @@ footer {
   color: var(--color-secondary);
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: underline var(--color-main);
+  text-underline-offset: 6px;
 }
+
 .main-content-conteiner {
   padding-bottom: 120px;
 }
