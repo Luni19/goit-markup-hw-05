@@ -128,10 +128,13 @@ button:focus {
   font-weight: 500;
   font-size: 20px;
   color: var(--color-main);
+  padding-bottom: 8px;
+  padding-top: 32px;
 }
 .promo {
   color: var(--color-for-words);
   max-width: 256px;
+  margin-bottom: 32px;
 }
 .list-promo {
   list-style-type: none;
@@ -173,6 +176,7 @@ p {
   font-size: 36px;
   text-align: center;
   padding-top: 120px;
+  margin-bottom: 72px;
 }
 .our-names {
   background-color: #f4f4fd;
@@ -208,8 +212,8 @@ footer {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  padding-left: 156px;
   max-width: 264px;
+  padding-top: 16px;
 }
 .word-studio-footer {
   color: var(--color-secondary);
@@ -218,8 +222,7 @@ footer {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  padding-left: 156px;
+  line-height: 21px;;
 }
 .button-list {
   list-style-type: none;
@@ -276,4 +279,7 @@ footer {
 a {
   list-style-type: none;
   text-decoration: none;
+}
+.footer-text-conteiner {
+  padding-left: 156px;
 }
