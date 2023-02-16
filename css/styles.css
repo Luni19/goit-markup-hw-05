@@ -32,6 +32,7 @@ header{
 }
 .word-web {
   color: var(--color-reserve);
+  
 }
 .navigation {
   font-weight: 500;
@@ -44,7 +45,7 @@ header{
   display: flex;
   align-items: center;
   flex-grow: 1;
-  gap: 40px;
+  margin-left: 40px;
   padding: 0;
 }
 .conteiner-navigation {
