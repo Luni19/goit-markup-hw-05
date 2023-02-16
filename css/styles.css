@@ -267,11 +267,15 @@ footer {
   font-weight: 500;
   font-size: 20px;
   color: var(--color-main);
-  padding-left: 16px;
 }
 .type-app {
   color: var(--color-for-words);
-  max-width: 256px;
+  padding-top: 8px;
+}
+.ikon-conteiner {
+  border: 1px solid #e7e9fc;
+  padding-bottom: 32px;
+  padding-top: 32px;
   padding-left: 16px;
 }
 .img-portfolio-content {
