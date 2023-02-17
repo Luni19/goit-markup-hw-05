@@ -21,8 +21,8 @@ body {
   margin: 0px;
   display: block;
 }
-header{
-  border-bottom: 1px solid #E7E9FC;
+header {
+  border-bottom: 1px solid #e7e9fc;
 }
 .main-conteiner {
   width: 1158px;
@@ -32,7 +32,6 @@ header{
 }
 .word-web {
   color: var(--color-reserve);
-  
 }
 .navigation {
   font-weight: 500;
@@ -41,12 +40,15 @@ header{
   list-style-type: none;
   text-decoration: none;
   color: var(--color-main);
-  margin: 0;
   display: flex;
   align-items: center;
   flex-grow: 1;
-  margin-left: 40px;
+  gap: 40px;
   padding: 0;
+}
+
+.navigation:first-child {
+  gap: 76px;
 }
 .conteiner-navigation {
   display: flex;
@@ -143,15 +145,17 @@ p {
 }
 
 .strategy-list {
-  padding-top: 152px;
   text-decoration: none;
   list-style-type: none;
   display: flex;
   gap: 25px;
 }
+.presentation-section {
+  padding-top: 152px;
+}
 .second-section {
   padding-top: 159px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .what-doing-ct {
   display: flex;
@@ -159,7 +163,7 @@ p {
 }
 .what-do {
   text-align: center;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
 }
@@ -174,12 +178,12 @@ p {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
-  padding-top: 120px;
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 .our-names {
   background-color: #f4f4fd;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 .photo-list {
   list-style-type: none;
@@ -230,9 +234,8 @@ footer {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 96px;
+  margin-bottom: 85px;
 }
-
 .buttons {
   font-weight: 500;
   font-size: 16px;
@@ -242,7 +245,6 @@ footer {
   border-radius: 4px;
   cursor: pointer;
   border-color: #e7e9fc;
-  margin-bottom: 85px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
@@ -260,7 +262,8 @@ footer {
   text-underline-offset: 6px;
 }
 .portfolio-main-section {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
+  padding-top: 96px;
 }
 
 .name-app {
