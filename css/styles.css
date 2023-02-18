@@ -296,3 +296,13 @@ a {
   list-style-type: none;
   text-decoration: none;
 }
+
+/* svg  */
+.svg-conteiner {
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  height: 112px;
+  width: 264px;
+  border-radius: 4px;
+}
