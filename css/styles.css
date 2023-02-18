@@ -157,7 +157,20 @@ p {
   list-style-type: none;
   display: flex;
   gap: 25px;
+  justify-content: center
+
 }
+/* svg  */
+.svg-conteiner {
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4fd;
+  height: 112px;
+  width: 264px;
+  border-radius: 4px;
+  display: flex;
+}
+
 .presentation-section {
   padding-top: 152px;
 }
@@ -297,12 +310,3 @@ a {
   text-decoration: none;
 }
 
-/* svg  */
-.svg-conteiner {
-  justify-content: center;
-  align-items: center;
-  background-color: #f4f4fd;
-  height: 112px;
-  width: 264px;
-  border-radius: 4px;
-}
