@@ -153,9 +153,10 @@ p {
 }
 .customers {
   text-align: center;
+  display: flex;
 }
 .list-of-customers {
-  width: 40px;
+    
 }
 .customers-text {
   font-weight: 700;
@@ -167,6 +168,19 @@ p {
   border-radius: 4px;
   height: 88px;
   width: 168px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.customers-ul{
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 72px;
+  
+  
 }
 .strategy-list {
   text-decoration: none;
