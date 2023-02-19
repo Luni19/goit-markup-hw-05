@@ -151,7 +151,14 @@ button:focus {
 p {
   font-size: 16px;
 }
-
+.customers{
+  text-align: center;
+}
+.customers-text{
+  font-weight: 700;
+  font-size: 36px;
+  padding-top: 130px;
+}
 .strategy-list {
   text-decoration: none;
   list-style-type: none;
@@ -169,7 +176,10 @@ p {
   border-radius: 4px;
   display: flex;
 }
-
+.svg-list {
+  width: 64px;
+  height: 64px;
+}
 .presentation-section {
   padding-top: 152px;
 }
