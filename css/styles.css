@@ -95,7 +95,7 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office\ 1.png);
+    url(../images/people-office\ 1.png);
   background-size: 1440, auto;
   background-position: center;
   padding-bottom: 188px;
@@ -157,8 +157,7 @@ p {
   list-style-type: none;
   display: flex;
   gap: 25px;
-  justify-content: center
-
+  justify-content: center;
 }
 /* svg  */
 .svg-conteiner {
@@ -309,4 +308,3 @@ a {
   list-style-type: none;
   text-decoration: none;
 }
-
