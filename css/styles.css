@@ -151,13 +151,22 @@ button:focus {
 p {
   font-size: 16px;
 }
-.customers{
+.customers {
   text-align: center;
 }
-.customers-text{
+.list-of-customers {
+  width: 40px;
+}
+.customers-text {
   font-weight: 700;
   font-size: 36px;
   padding-top: 130px;
+}
+.customers-conteiner {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  height: 88px;
+  width: 168px;
 }
 .strategy-list {
   text-decoration: none;
