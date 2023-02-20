@@ -154,9 +154,9 @@ p {
 .customers {
   text-align: center;
   display: flex;
+  margin-bottom: 120px;
 }
 .list-of-customers {
-    
 }
 .customers-text {
   font-weight: 700;
@@ -172,15 +172,13 @@ p {
   justify-content: center;
   display: flex;
 }
-.customers-ul{
+.customers-ul {
   text-decoration: none;
   list-style-type: none;
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-top: 72px;
-  
-  
 }
 .strategy-list {
   text-decoration: none;
@@ -251,11 +249,21 @@ p {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-
   padding-bottom: 32px;
 }
 .photos-developers {
   background-color: var(--color-secondary);
+}
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+.social-svg {
+  width: 40px;
+  height: 40px;
 }
 footer {
   background-color: var(--color-main);
