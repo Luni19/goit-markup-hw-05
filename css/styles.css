@@ -414,7 +414,6 @@ h3{
 .svg-conteiner-footer{
   align-items: center;
   border-radius: 4px;
-  display: flex;
 }
 .social-icons-footer{
   list-style-type: none;
@@ -440,4 +439,7 @@ list-style-type: none;
   width: 40px;
   height: 40px;
   padding-top: 8px;
+}
+.social-media-conteiner{
+  margin-left: 269px;
 }
