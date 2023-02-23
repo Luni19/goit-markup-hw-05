@@ -102,8 +102,10 @@ header {
 }
 
 .main-section {
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/people-office\ 1.png);
   background-size: 1440, auto;
   background-position: center;
@@ -174,8 +176,6 @@ p {
   margin-bottom: 120px;
 }
 
-
-
 .customers-text {
   font-weight: 700;
   font-size: 36px;
@@ -191,8 +191,9 @@ p {
   justify-content: center;
   display: flex;
 }
-.customers-conteiner:hover,:focus{
-  border: 1px solid rgba(64, 75, 191, 1) ;
+.customers-conteiner:hover,
+.customers-conteiner:focus {
+  border: 1px solid rgba(64, 75, 191, 1);
 }
 .customers-ul {
   text-decoration: none;
@@ -221,9 +222,7 @@ p {
   border-radius: 4px;
   display: flex;
 }
-..svg-conteiner:hover,:focus{
-  background-color: rgba(64, 75, 191, 1);
-}
+
 .svg-list {
   width: 64px;
   height: 64px;
@@ -291,7 +290,6 @@ p {
   background-color: var(--color-secondary);
 }
 
-
 /* Social */
 .social-icons {
   list-style-type: none;
@@ -300,13 +298,14 @@ p {
   gap: 24px;
   margin-top: 8px;
 }
-
+.list-of-customers {
+}
 .social-svg {
   width: 40px;
   height: 40px;
   padding: 12px;
 }
-.social-link{
+.social-link {
   width: 100%;
   height: 100%;
   display: flex;
@@ -315,8 +314,10 @@ p {
   background-color: var(--color-reserve);
   border-radius: 50%;
 }
-.social-link:hover,:focus{
-  background-color: #404BBF;
+.social-link:hover,
+.social-link:focus {
+  background-color: #404bbf;
+  fill:currentColor;
 }
 
 /*  Social  */
@@ -406,26 +407,29 @@ footer {
   padding-top: 32px;
   padding-left: 16px;
 }
-
+.ikon-conteiner:hover,
+.ikon-conteiner:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 a {
   list-style-type: none;
   text-decoration: none;
 }
-h3{
+h3 {
   color: var(--color-secondary);
   font-weight: 500;
   padding-bottom: 16px;
 }
-.svg-conteiner-footer{
+.svg-conteiner-footer {
   display: flex;
 }
-.social-icons-footer{
+.social-icons-footer {
   list-style-type: none;
-  display: flex;  
+  display: flex;
   gap: 24px;
-
 }
-.social-link-footer{
+.social-link-footer {
   width: 100%;
   height: 100%;
   display: flex;
@@ -434,19 +438,20 @@ h3{
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.social-item-footer{
-text-decoration: none;
-list-style-type: none;
+.social-item-footer {
+  text-decoration: none;
+  list-style-type: none;
 }
-.social-svg-footer{
+.social-svg-footer {
   width: 40px;
   height: 40px;
   padding-top: 8px;
   border-radius: 50%;
 }
-.social-media-conteiner{
+.social-media-conteiner {
   margin-left: 120px;
 }
-.social-svg-footer:hover,:focus{
-  background-color:#31D0AA ;
+.social-svg-footer:hover,
+.social-svg-footer:focus {
+  background-color: #31d0aa;
 }
