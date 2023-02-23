@@ -298,7 +298,11 @@ p {
   gap: 24px;
   margin-top: 8px;
 }
-.list-of-customers {
+.list-of-customers:hover,.list-of-customers:focus {
+  fill: #404BBF;
+}
+.list-of-customers{
+  fill: #8E8F99;
 }
 .social-svg {
   width: 40px;
@@ -317,7 +321,6 @@ p {
 .social-link:hover,
 .social-link:focus {
   background-color: #404bbf;
-  fill:currentColor;
 }
 
 /*  Social  */
