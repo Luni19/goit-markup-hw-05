@@ -303,8 +303,9 @@ p {
 }
 
 .list-of-customers {
-  fill: #8e8f99;
+  fill: currentColor;
 }
+
 .social-svg {
   width: 40px;
   height: 40px;
@@ -426,17 +427,20 @@ h3 {
 }
 .svg-conteiner-footer {
   display: flex;
+  gap:10px
 }
 .social-icons-footer {
   list-style-type: none;
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .social-link-footer {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
@@ -447,7 +451,7 @@ h3 {
 .social-svg-footer {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  
 }
 .social-media-conteiner {
   margin-left: 120px;
@@ -455,4 +459,9 @@ h3 {
 .social-svg-footer:hover,
 .social-svg-footer:focus {
   background-color: #31d0aa;
+}
+.conteiner-footer-svg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
