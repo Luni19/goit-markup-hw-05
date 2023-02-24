@@ -113,7 +113,7 @@ header {
   padding-top: 188px;
   background-repeat: no-repeat;
   background-size: cover;
-  size: 1440, auto;
+  size: 1440px, auto;
 }
 
 .main-conteiner {
@@ -192,11 +192,12 @@ p {
   align-items: center;
   justify-content: center;
   display: flex;
+  color: rgba(142, 143, 153, 1);
 }
-.customers-conteiner:hover,
+.customers-conteiner:hover, 
 .customers-conteiner:focus {
   border: 1px solid rgba(64, 75, 191, 1);
-  fill:  rgba(64, 75, 191, 1);
+  color:  rgba(64, 75, 191, 1);
 }
 .customers-ul {
   text-decoration: none;
@@ -307,8 +308,8 @@ p {
 }
 
 .social-svg {
-  width: 40px;
-  height: 40px;
+  width: 16px;
+  height: 16px;
 }
 .social-link {
   width: 100%;
@@ -385,6 +386,8 @@ footer {
   cursor: pointer;
   text-decoration: underline var(--color-main);
   text-underline-offset: 6px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .portfolio-main-section {
@@ -444,20 +447,24 @@ h3 {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.social-item-footer {
-  text-decoration: none;
-  list-style-type: none;
-}
-.social-svg-footer {
+.social-item{
   width: 40px;
   height: 40px;
+}
+.social-item-footer {
+ width: 40px;
+ height: 40px;
+}
+.social-svg-footer {
+  width: 24px;
+  height: 24px
   
 }
 .social-media-conteiner {
   margin-left: 120px;
 }
-.social-svg-footer:hover,
-.social-svg-footer:focus {
+.social-link-footer:hover,
+.social-link-footer:focus {
   background-color: #31d0aa;
 }
 .conteiner-footer-svg{
