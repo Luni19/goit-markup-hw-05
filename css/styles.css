@@ -194,10 +194,10 @@ p {
   display: flex;
   color: rgba(142, 143, 153, 1);
 }
-.customers-conteiner:hover, 
+.customers-conteiner:hover,
 .customers-conteiner:focus {
   border: 1px solid rgba(64, 75, 191, 1);
-  color:  rgba(64, 75, 191, 1);
+  color: rgba(64, 75, 191, 1);
 }
 .customers-ul {
   text-decoration: none;
@@ -386,17 +386,17 @@ footer {
   cursor: pointer;
   text-decoration: underline var(--color-main);
   text-underline-offset: 6px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .portfolio-main-section {
   padding-bottom: 120px;
   padding-top: 96px;
 }
-.portfolio-link{
+.portfolio-link {
   display: block;
-
 }
 .name-app {
   font-weight: 500;
@@ -433,7 +433,7 @@ h3 {
 }
 .svg-conteiner-footer {
   display: flex;
-  gap:10px
+  gap: 10px;
 }
 .social-icons-footer {
   list-style-type: none;
@@ -450,18 +450,17 @@ h3 {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.social-item{
+.social-item {
   width: 40px;
   height: 40px;
 }
 .social-item-footer {
- width: 40px;
- height: 40px;
+  width: 40px;
+  height: 40px;
 }
 .social-svg-footer {
   width: 24px;
-  height: 24px
-  
+  height: 24px;
 }
 .social-media-conteiner {
   margin-left: 120px;
@@ -470,18 +469,15 @@ h3 {
 .social-link-footer:focus {
   background-color: #31d0aa;
 }
-.conteiner-footer-svg{
+.conteiner-footer-svg {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-
 /* modal */
 
-
-.backdrop{
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -491,28 +487,27 @@ h3 {
   width: 100%;
   height: 100%;
   padding: 20px 0;
-  background-color: rgba(46, 47, 66, 0.4);;
+  background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 500ms, visability 500ms;
-  
 }
 
-.modal{
+.modal {
   position: relative;
   width: 100%;
-  Max-width: 408px;
+  max-width: 408px;
   max-height: 576px;
   height: 100%;
-  background-color: #FCFCFC;
+  background-color: #fcfcfc;
   transform: scale(1);
   transition: transform 500ms;
 }
-.backdrop.is-hidden .modal{
+.backdrop.is-hidden .modal {
   transform: scale(0);
 }
 
-.backdrop.is-hidden{
+.backdrop.is-hidden {
   opacity: 0;
-  visibility:hidden;
+  visibility: hidden;
   pointer-events: none;
 }
 .modal-close {
