@@ -57,6 +57,7 @@ header {
   color: var(--color-main);
   padding: 24px 0;
   position: relative;
+  display: block;
 }
 .navigation-link::after {
   content: "";
@@ -75,8 +76,6 @@ header {
 .conteiner-navigation {
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .navigation:hover,
