@@ -526,22 +526,21 @@ h3 {
   visibility: hidden;
   pointer-events: none;
 }
-.modal-close {
+.modal-close {  
   position: absolute;
   top: 24px;
-  right: 24px;
+  right: 24px;  
 }
-
+.icon-close{
+  width: 24px;
+  height: 24px;
+  display: flex;
+  
+}
 /* technology-deskripion */
 .technology-deskripion{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
 }
+  
 
 .technology-image{
-  position: relative;
 }
