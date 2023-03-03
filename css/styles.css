@@ -390,7 +390,6 @@ footer {
   gap: 10px;
 }
 
-
 .buttons:hover,
 .buttons:focus {
   font-weight: 500;
@@ -526,25 +525,35 @@ h3 {
   visibility: hidden;
   pointer-events: none;
 }
-.modal-close {  
+.modal-close {
   position: absolute;
   top: 24px;
-  right: 24px;  
-}
-.icon-close{
+  right: 24px;
+  background: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 24px;
   height: 24px;
-  display: flex;
-  
+}
+.modal-close:hover,.modal-close:focus{
+  background-color: #404BBF;
+}
+.icon-close:hover,.icon-close:focus{
+  fill: #FFFFFF;
+}
+.icon-close {
+  width: 8px;
+  height: 8px;
 }
 /* technology-deskripion */
 .technology-image {
   position: relative;
 }
 
-
-
-.technology-deskripion{
+.technology-deskripion {
   background-color: pink;
   position: absolute;
   top: 0;
@@ -552,5 +561,3 @@ h3 {
   width: 100%;
   height: 100%;
 }
-  
-
