@@ -540,9 +540,8 @@ h3 {
 }
 .modal-close:hover,.modal-close:focus{
   background-color: #404BBF;
-}
-.icon-close:hover,.icon-close:focus{
-  fill: #FFFFFF;
+  color: #FFFFFF;
+  fill: currentColor;
 }
 .icon-close {
   width: 8px;
