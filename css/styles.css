@@ -59,7 +59,7 @@ header {
   position: relative;
   display: block;
 }
-.navigation-link::after {
+ .current:after { 
   content: "";
   position: absolute;
   bottom: 0;
@@ -68,7 +68,7 @@ header {
   background-color: rgba(64, 75, 191, 1);
   display: block;
   border-radius: 2px;
-}
+} 
 .navigation:first-child {
   gap: 76px;
 }
@@ -538,9 +538,10 @@ h3 {
   width: 24px;
   height: 24px;
 }
-.modal-close:hover,.modal-close:focus{
-  background-color: #404BBF;
-  color: #FFFFFF;
+.modal-close:hover,
+.modal-close:focus {
+  background-color: #404bbf;
+  color: #ffffff;
   fill: currentColor;
 }
 .icon-close {
@@ -554,7 +555,7 @@ h3 {
 }
 
 .technology-deskripion {
-  background-color: #4D5AE5; 
+  background-color: #4d5ae5;
   position: absolute;
   top: 0;
   left: 0;
@@ -565,5 +566,4 @@ h3 {
 }
 .technology-image:hover .technology-deskripion {
   transform: translateY(0);
-
 }
