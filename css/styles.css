@@ -59,7 +59,7 @@ header {
   position: relative;
   display: block;
 }
- .current:after { 
+.current:after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -68,7 +68,8 @@ header {
   background-color: rgba(64, 75, 191, 1);
   display: block;
   border-radius: 2px;
-} 
+}
+
 .navigation:first-child {
   gap: 76px;
 }
