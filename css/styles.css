@@ -89,6 +89,8 @@ header {
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .word-studio {
@@ -167,7 +169,9 @@ header {
 .main-button :hover,
 .main-button :focus {
   background-color: #404bbf;
-  transition: cubic-bezier(0.4, 0, 0.2, 1)
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
+  
 }
 
 .list-of-features {
@@ -194,8 +198,8 @@ p {
 .customers {
   text-align: center;
   display: flex;
-  margin-bottom: 120px;
-  margin-top: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
 
 .customers-text {
@@ -218,6 +222,7 @@ p {
   border: 1px solid rgba(64, 75, 191, 1);
   color: rgba(64, 75, 191, 1);
   transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 .customers-ul {
   text-decoration: none;
@@ -344,6 +349,7 @@ p {
 .social-link:focus {
   background-color: #404bbf;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 /*  Social  */
@@ -413,6 +419,7 @@ footer {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms;
 }
 
 .portfolio-main-section {
@@ -446,6 +453,7 @@ footer {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     transition: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms;
 }
 a {
   list-style-type: none;
@@ -494,6 +502,7 @@ h3 {
 .social-link-footer:focus {
   background-color: #31d0aa;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms
 }
 .conteiner-footer-svg {
   display: flex;
@@ -555,6 +564,7 @@ h3 {
   color: #ffffff;
   fill: currentColor;
   transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms
 }
 .icon-close {
   width: 8px;
@@ -578,5 +588,14 @@ h3 {
 }
 .technology-image:hover .technology-deskripion {
   transform: translateY(0);
-  
+}
+
+.technology-deskripion-text{
+  color: #F4F4FD;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 40px;
+  padding-left: 32px;
+  padding-bottom: 284px;
 }
