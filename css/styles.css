@@ -52,8 +52,7 @@ header {
   flex-grow: 1;
   gap: 40px;
   padding: 0;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-link {
   color: var(--color-main);
@@ -118,8 +117,7 @@ header {
   gap: 48px 24px;
   flex-wrap: wrap;
   margin: 0;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-section {
@@ -164,8 +162,7 @@ header {
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button :hover,
@@ -215,8 +212,7 @@ p {
   justify-content: center;
   display: flex;
   color: rgba(142, 143, 153, 1);
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  transition: color, border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-conteiner:hover,
 .customers-conteiner:focus {
@@ -343,8 +339,7 @@ p {
   justify-content: center;
   background-color: var(--color-reserve);
   border-radius: 50%;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-link:hover,
 .social-link:focus {
@@ -401,24 +396,18 @@ footer {
   border-radius: 4px;
   padding: 16px 32px;
   gap: 10px;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  transition: background-color, color, text-decoration, box-shadow,text-underline-offset,
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons:hover,
 .buttons:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   background-color: var(--color-reserve);
   color: var(--color-secondary);
-  border-radius: 4px;
-  cursor: pointer;
   text-decoration: underline var(--color-main);
   text-underline-offset: 6px;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 
 .portfolio-main-section {
@@ -427,8 +416,7 @@ footer {
 }
 .portfolio-link {
   display: block;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .name-app {
   font-weight: 500;
@@ -450,7 +438,7 @@ footer {
   padding-left: 16px;
 }
 .portfolio-link:hover,
-.portfolio-linkr:focus {
+.portfolio-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -481,8 +469,7 @@ h3 {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-item {
   width: 40px;
@@ -556,8 +543,7 @@ h3 {
   align-items: center;
   width: 24px;
   height: 24px;
-  transition: cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms;
+  transition: color,fill,background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close:hover,
 .modal-close:focus {
@@ -575,7 +561,7 @@ h3 {
   overflow: hidden;
 }
 
-.technology-deskripion {
+.technology-deskripion  {
   background-color: #4d5ae5;
   position: absolute;
   top: 0;
@@ -585,7 +571,7 @@ h3 {
   transform: translateY(100%);
   transition: 250ms;
 }
-.technology-image:hover .technology-deskripion {
+.technology-image:hover .technology-deskripion  {
   transform: translateY(0);
 }
 
