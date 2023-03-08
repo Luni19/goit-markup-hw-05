@@ -571,7 +571,7 @@ h3 {
   transform: translateY(100%);
   transition: 250ms;
 }
-.technology-image:hover .technology-deskripion  {
+.portfolio-link:hover .technology-deskripion {
   transform: translateY(0);
 }
 
