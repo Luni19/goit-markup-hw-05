@@ -570,6 +570,15 @@ padding-top: 72px;
 }
 label{
   display: block;
+  letter-spacing: 0.04em;
+  color: #8E8F99;
+  margin-left: 24px;
+  font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+}
+label:first-child{
+  margin-top: 16px;
 }
 .user-input{
 border: 1px solid #2E2F42;
@@ -577,9 +586,11 @@ border-radius: 4px;
 height: 40px;
 width: 360px;
 margin-left: 24px;
-margin-top: 4px
-
-;
+margin-top: 4px;
+}
+.user-input:last-child{
+  height: 120px;
+  width: 360px;
 }
 /* technology-deskripion */
 .technology-image {
