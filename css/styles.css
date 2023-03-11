@@ -576,12 +576,13 @@ label{
   font-weight: 400;
 font-size: 12px;
 line-height: 14px;
+margin-top: 8px;
 }
 label:first-child{
   margin-top: 16px;
 }
 .user-input{
-border: 1px solid #2E2F42;
+border: 1px solid #2E2F42;  
 border-radius: 4px;
 height: 40px;
 width: 360px;
@@ -592,6 +593,13 @@ margin-top: 4px;
   height: 120px;
   width: 360px;
 }
+
+.svg-person{
+  position: absolute;
+
+  
+}
+
 /* technology-deskripion */
 .technology-image {
   position: relative;
