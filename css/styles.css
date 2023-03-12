@@ -521,6 +521,7 @@ h3 {
   background-color: #fcfcfc;
   transform: scale(1);
   transition: transform 500ms;
+  padding: 72px 24px 24px;
 }
 .backdrop.is-hidden .modal {
   transform: scale(0);
@@ -563,7 +564,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 text-align: center;
-padding-top: 72px;
 }
 
 label{
@@ -584,21 +584,45 @@ border: 1px solid #2E2F42;
 border-radius: 4px;
 height: 40px;
 width: 360px;
-margin-left: 24px;
-margin-top: 4px;
+opacity: 0.2;
+padding-left: 38px;
 }
 .user-input:last-child{
-  height: 120px;
   width: 360px;
 }
-.svg-span{
+.svg-conteiner-modal{
   position: relative;
 }
 .svg-person{
   position: absolute;
   height: 18px;
   width: 18px;
-  
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.svg-phone{
+  position: absolute;
+  height: 24px;
+  width: 18px;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-15%)
+}
+
+.svg-email{
+  position: absolute;
+  height: 24px;
+  width: 18px;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-15%)
+}
+.user-comment{
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  opacity: 0.2
 }
 .Privacy-Policy{
   font-family: 'Roboto';
@@ -626,8 +650,6 @@ margin-top: 16px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 169px;
 height: 56px;
-margin-left: 119px;
-margin-top: 24px;
 
 }
 
