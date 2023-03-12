@@ -396,8 +396,8 @@ footer {
   border-radius: 4px;
   padding: 16px 32px;
   gap: 10px;
-  transition: background-color, color, text-decoration, box-shadow,text-underline-offset,
-    250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color, color, text-decoration, box-shadow,
+    text-underline-offset, 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons:hover,
@@ -469,7 +469,7 @@ h3 {
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-item {
   width: 40px;
@@ -544,7 +544,7 @@ h3 {
   align-items: center;
   width: 24px;
   height: 24px;
-  transition: color,fill,background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color, fill, background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close:hover,
 .modal-close:focus {
@@ -557,43 +557,42 @@ h3 {
   height: 8px;
 }
 
-.modal-text{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-text-align: center;
+.modal-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
 }
 
-label{
+label {
   display: block;
   letter-spacing: 0.04em;
-  color: #8E8F99;
-  margin-left: 24px;
+  color: #8e8f99;
   font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-margin-top: 8px;
+  font-size: 12px;
+  line-height: 14px;
+  margin-top: 8px;
 }
-label:first-child{
+label:first-child {
   margin-top: 16px;
 }
-.user-input{
-border: 1px solid #2E2F42;  
-border-radius: 4px;
-height: 40px;
-width: 360px;
-opacity: 0.2;
-padding-left: 38px;
+.user-input {
+  border: 1px solid #2e2f42;
+  border-radius: 4px;
+  height: 40px;
+  width: 360px;
+  opacity: 0.2;
+  padding-left: 38px;
 }
-.user-input:last-child{
+.user-input:last-child {
   width: 360px;
 }
-.svg-conteiner-modal{
+.svg-conteiner-modal {
   position: relative;
 }
-.svg-person{
+.svg-person {
   position: absolute;
   height: 18px;
   width: 18px;
@@ -602,40 +601,64 @@ padding-left: 38px;
   transform: translateY(-50%);
 }
 
-.svg-phone{
+.svg-phone {
   position: absolute;
   height: 24px;
   width: 18px;
   left: 16px;
   top: 50%;
-  transform: translateY(-15%)
+  transform: translateY(-15%);
 }
 
-.svg-email{
+.svg-email {
   position: absolute;
   height: 24px;
   width: 18px;
   left: 16px;
   top: 50%;
-  transform: translateY(-15%)
+  transform: translateY(-15%);
 }
-.user-comment{
+.user-comment {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
-  opacity: 0.2
-}
-.Privacy-Policy{
+  height: 120px;
+  width: 360px;
+  padding-left: 16px;
   font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.04em;
-color: #8E8F99;
-text-align: center;
-margin-top: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  opacity: 0.2;
+  
 }
-.privacy-policy-button{
+
+.Privacy-Policy-conteiner {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+.Privacy-Policy {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  text-align: center;
+}
+.policy-text{
+  color: rgba(77, 90, 229, 1);
+  text-decoration: underline;
+}
+.checkbox {
+  margin: 0;
+}
+.privacy-policy-button {
+  margin-left: 95px;
+  margin-top: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -649,8 +672,7 @@ margin-top: 16px;
   padding: 16px 32px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 169px;
-height: 56px;
-
+  height: 56px;
 }
 
 /* technology-deskripion */
@@ -659,7 +681,7 @@ height: 56px;
   overflow: hidden;
 }
 
-.technology-deskripion  {
+.technology-deskripion {
   background-color: #4d5ae5;
   position: absolute;
   top: 0;
